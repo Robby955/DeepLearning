@@ -10,3 +10,8 @@ Each image is loaded into Python and transformed first into a (64,64,3) numpy ar
 For this example we use the sigmoid function for our output layer. We create functions that allow for the random inilization of weight parameters(W) and associated bias terms (b).
 
 Foward propagation is used, followed by backpropagation to obtain gradients. Finally, gradient descent is applied to optimize the weights. 
+
+Using a two layer neural network gives a high training accuracy , but only a 68% accuracy on the test set.
+We improve by using a larger network to 80% accuracy on the training set.
+
+You can test this algorithm by uploading your own images as well, the code is provided for that.
